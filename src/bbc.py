@@ -22,7 +22,7 @@ class Game:
             self.turn = 0 if self.fen_string.split()[1] == 'w' else 1
 
 # Game config/settings
-GAME_SETTINGS = '../src/config.json'
+GAME_SETTINGS = '../resourses/config.json'
 
 bbc = Game(GAME_SETTINGS)
 bbc.move_gen()
